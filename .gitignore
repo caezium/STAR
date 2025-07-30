@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data
+# data/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
+
+# Others
+*.sqlite3
+*.db
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
