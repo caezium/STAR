@@ -42,5 +42,4 @@ inefficiencyandpolicyreport.pdf
 
 # data
 star_market/bars_1d.parquet
-.gitignore
 star_market/factors_1d.parquet
