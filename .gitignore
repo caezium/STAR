@@ -32,3 +32,15 @@ __pycache__/
 *.bak
 *.swp
 *.swo
+
+
+
+# ---
+inefficiencyandpolicyreport.pdf
+股价预测项目.pptx.pdf
+股价预测.docx
+
+# data
+star_market/bars_1d.parquet
+.gitignore
+star_market/factors_1d.parquet
