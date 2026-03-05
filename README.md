@@ -1,12 +1,11 @@
 # STAR Market Stock Prediction
 
-Machine learning model for predicting next-day returns on China's STAR Market (科创板), achieving **195% cumulative return** and **89.9% annualized return** over a 6-year backtesting period (2019–2025).
+Machine learning model for predicting next-day returns on China's STAR Market (科创板), achieving **89.9% annualized return** over backtesting period (2019–2025).
 
 ## Results
 
 | Metric | Value |
 |--------|-------|
-| Cumulative Return | 195% |
 | Annualized Return | 89.9% |
 | Daily Alpha vs STAR 50 | +0.54% |
 | Maximum Drawdown | 31.8% |
@@ -44,7 +43,6 @@ Machine learning model for predicting next-day returns on China's STAR Market (�
 star_market/
 ├── src/
 │   └── ml.ipynb          # Main notebook: EDA, feature engineering, model training, backtesting
-├── data/                 # Raw and processed data (gitignored)
 ├── tests/                # Unit tests
 └── README.md
 ```
