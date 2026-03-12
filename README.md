@@ -28,7 +28,7 @@ Machine learning model for predicting next-day returns on China's STAR Market (ç
 - `small_order_2days` â€” Retail order flow proxy
 
 ### Model
-- **Random Forest** classifier predicting next-day return direction
+- **Random Forest Regressor** predicting next-day returns (used for daily stock ranking)
 - Compared against XGBoost baseline
 - Chronological train/test split (no lookahead bias)
 
@@ -67,4 +67,3 @@ jupyter notebook src/ml.ipynb
 ## Disclaimer
 
 This project is for educational and research purposes only. Past performance does not guarantee future results. Not financial advice.
-
